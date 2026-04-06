@@ -1,35 +1,52 @@
-#Overview :-
-This is a full-stack Job Portal application built to connect job seekers and recruiters. Users can browse jobs, apply, and manage applications, while recruiters can post and manage job listings.
+# 🚀 Job Portal Application
 
-#Tech Stack
-1. Frontend
-  a. React.js
-  b. Tailwind CSS
-  c. Axios
-  d. React Router
-2. Backend
-  a. Node.js
-  b. Express.js
-  c. MongoDB
-  d. JWT Authentication
+## 📌 Overview
+A full-stack Job Portal platform that connects **job seekers** with **recruiters**.  
+Users can explore job listings, apply, and track applications, while recruiters can post and manage job opportunities.
 
-#Features
-1. User (Job Seeker)
-  a. Register / Login
-  b. Browse all jobs
-  c. Apply to jobs
-  d. View applied jobs
-  e. Update profile
-2. Recruiter / Admin
-  a. Create job postings
-  b. Edit / Delete jobs
-  c. View applicants
-  d. Manage job listings
+---
 
-#Enviroment  Variables :-
-1. MONGO_URI=
-2. SECRET_KEY=
-3. CLOUD_NAME=
-4. API_KEY=
-5. API_SECRET=
-6. PORT=
+## 🛠️ Tech Stack
+
+### 🎨 Frontend
+- ⚛️ React.js  
+- 🎨 Tailwind CSS  
+- 🔗 Axios  
+- 🧭 React Router  
+
+### ⚙️ Backend
+- 🟢 Node.js  
+- 🚀 Express.js  
+- 🍃 MongoDB  
+- 🔐 JWT Authentication  
+
+---
+
+## ✨ Features
+
+### 👤 Job Seeker
+- 🔑 User Authentication (Register / Login)
+- 🔍 Browse available jobs
+- 📄 Apply to jobs
+- 📌 Track applied jobs
+- 🧑‍💼 Update profile
+
+### 🏢 Recruiter / Admin
+- ➕ Create job postings
+- ✏️ Edit / Delete jobs
+- 👀 View applicants
+- 📊 Manage job listings
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the backend directory and add:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+SECRET_KEY=your_jwt_secret
+CLOUD_NAME=your_cloudinary_name
+API_KEY=your_cloudinary_api_key
+API_SECRET=your_cloudinary_api_secret
+PORT=5000

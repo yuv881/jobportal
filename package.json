@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
     "start": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
   },
+  "homepage": "https://yuv881.github.io/jobportal",
   "keywords": [],
   "author": "",
   "license": "ISC",
